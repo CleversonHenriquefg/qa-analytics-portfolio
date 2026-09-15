@@ -1,36 +1,64 @@
 # QA & Analytics Portfolio
 
-Portfólio de **Cleverson Henrique Gomes** voltado a Qualidade de Software, análise de presença digital e melhoria da experiência do usuário.
+Portfólio de **Cleverson Henrique Gomes**, estudante de QA e Defesa Cibernética, com foco em qualidade de software, análise de dados e melhoria da experiência digital.
 
 ## Pitch
 
-> Muitos pequenos negócios perdem vendas todos os dias por causa de erros invisíveis. Meu trabalho é encontrar esses pontos, documentar tudo e entregar um plano simples, claro e prático para melhorar a presença digital e aumentar as chances de venda.
+> Falhas invisíveis não deveriam custar vendas. Meu objetivo é testar, analisar e documentar problemas com clareza, transformando achados em melhorias práticas para sites, perfis e sistemas.
 
-## Serviços
+## O que aprendi até agora
 
-- **QA manual:** testes funcionais, exploratórios e de compatibilidade;
-- **Análise de sites e páginas de venda:** fluxo, clareza, erros, responsividade e conversão;
-- **Bug reports e checklists:** documentação com impacto, prioridade, evidências e recomendação;
-- **UX e presença digital:** análise de experiência, perfil e pontos de confiança;
-- **Analytics básico:** definição de métricas, indicadores e leitura de dados;
-- **Segurança preventiva:** revisão básica de boas práticas e riscos visíveis.
+### Qualidade de Software — QA
 
-## Como funciona uma análise
+- Fundamentos de QA e ciclo de testes;
+- Análise de requisitos;
+- Tipos de teste;
+- Casos de teste com cenários positivos, negativos e de borda;
+- Resultado esperado, prioridade e severidade;
+- Bug reports com evidências e passos para reproduzir;
+- Checklists de teste;
+- Testes funcionais, exploratórios, de interface e responsividade;
+- Fundamentos de testes web e mobile.
 
-1. Entendimento do objetivo do site, perfil ou sistema;
-2. Testes e análise dos principais fluxos;
-3. Registro das falhas e oportunidades encontradas;
-4. Classificação por impacto e prioridade;
-5. Entrega de recomendações práticas e plano de ação.
+### Dados e Analytics
 
-## Tecnologias e estudos
+- SQL para consultas, filtros, ordenação e organização de dados;
+- Noções de métricas e indicadores;
+- Excel para estruturação de dados e relatórios;
+- Interpretação de dados para identificar pontos de atenção e oportunidades.
 
-`HTML` · `CSS` · `JavaScript` · `Python` · `SQL` · `Postman` · `Git/GitHub` · `QA Manual`
+### Web, APIs e Automação
+
+- HTML, CSS e JavaScript;
+- DevTools para inspeção e análise web;
+- APIs: HTTP, status codes e JSON;
+- Postman para testes de endpoints;
+- Modelo de Objeto de Página (POM) como base de organização para automação;
+- Python como base de lógica e automação.
+
+### Segurança e Ambiente Técnico
+
+- Formação em Defesa Cibernética;
+- Linux e terminal;
+- Fundamentos de segurança preventiva e boas práticas digitais;
+- Git e GitHub para versionamento e portfólio.
+
+## Ferramentas
+
+`Jira` · `Postman` · `SQL` · `Excel` · `DevTools` · `Git/GitHub` · `Python` · `Linux`
+
+## Direção profissional
+
+- QA Manual;
+- Análise de sites e UX;
+- Bug reports, checklists e relatórios;
+- Analytics básico;
+- Segurança preventiva.
 
 ## Estrutura
 
-- `index.html` — página de apresentação do portfólio;
-- `README.md` — resumo profissional e serviços.
+- `index.html` — página dinâmica de apresentação do portfólio;
+- `README.md` — resumo profissional, estudos e ferramentas.
 
 ## Links
 
