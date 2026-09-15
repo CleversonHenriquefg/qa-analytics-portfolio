@@ -6,61 +6,85 @@
   <meta name="description" content="Portfólio de QA e Analytics de Cleverson Henrique Gomes.">
   <title>Cleverson · QA & Analytics</title>
   <style>
-    :root{--bg:#06152b;--surface:#0d2545;--line:#284b77;--text:#eff7ff;--muted:#a9bdd8;--aqua:#58e2cd;--blue:#78a7ff;--orange:#ffb86c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 84% 0,#174270 0,transparent 28%),var(--bg);font:16px/1.55 Inter,Arial,sans-serif;color:var(--text)}a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}header{display:flex;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid rgba(169,189,216,.18)}.brand{font-weight:900;letter-spacing:-.04em}.brand i{font-style:normal;color:var(--aqua)}nav{display:flex;gap:19px;color:var(--muted);font-size:.92rem}nav a:hover{color:var(--aqua)}.hero{padding:86px 0 60px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center}.kicker{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--aqua);text-transform:uppercase}.hero h1{font-size:clamp(2.45rem,6vw,5.2rem);line-height:.98;letter-spacing:-.075em;margin:16px 0 20px;max-width:760px}.hero h1 span{color:var(--aqua)}.hero p{font-size:1.08rem;color:var(--muted);max-width:630px;margin:0 0 27px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{padding:12px 17px;border-radius:10px;font-weight:800;border:1px solid var(--aqua);background:var(--aqua);color:#04203a}.btn.alt{color:var(--text);background:transparent;border-color:#395c8a}.btn:hover{transform:translateY(-2px);transition:.2s}.hero-card{background:linear-gradient(145deg,#163b68,#0b203e);padding:26px;border:1px solid #315d91;border-radius:18px;box-shadow:0 22px 60px rgba(0,0,0,.2)}.hero-card h2{font-size:1.15rem;margin:0 0 14px}.hero-card p{font-size:.94rem}.stat{display:flex;gap:13px;padding:13px 0;border-top:1px solid rgba(169,189,216,.16)}.stat b{color:var(--aqua);font-size:1.2rem}.section{padding:65px 0}.section-title{max-width:660px;margin-bottom:28px}.section-title h2{font-size:2rem;letter-spacing:-.045em;margin:8px 0}.section-title p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:rgba(13,37,69,.78);border:1px solid rgba(72,111,158,.58);border-radius:14px;padding:22px}.card .icon{font-size:1.5rem}.card h3{margin:14px 0 7px;font-size:1.1rem}.card p{margin:0;color:var(--muted);font-size:.93rem}.process{counter-reset:steps;display:grid;grid-template-columns:repeat(5,1fr);gap:13px}.step{padding:18px;border-top:2px solid var(--blue);background:rgba(13,37,69,.52)}.step:before{counter-increment:steps;content:"0" counter(steps);color:var(--aqua);font-weight:900}.step h3{font-size:.98rem;margin:13px 0 4px}.step p{font-size:.86rem;color:var(--muted);margin:0}.project{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}.tag{font-size:.72rem;font-weight:800;letter-spacing:.08em;color:#092039;background:var(--orange);border-radius:20px;padding:4px 9px}.footer{padding:34px 0;border-top:1px solid rgba(169,189,216,.18);color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:16px}@media(max-width:760px){header{align-items:flex-start;gap:15px;flex-direction:column}nav{gap:13px}.hero{grid-template-columns:1fr;padding:58px 0 38px}.hero-card{display:none}.grid{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.footer{flex-direction:column}}@media(max-width:420px){.wrap{width:min(100% - 28px,1120px)}nav{font-size:.8rem}.process{grid-template-columns:1fr}}
+    :root{--bg:#06152b;--surface:#0d2545;--surface2:#102c52;--line:#2e5586;--text:#eff7ff;--muted:#a9bdd8;--aqua:#58e2cd;--blue:#78a7ff;--orange:#ffb86c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 84% 0,#174270 0,transparent 28%),var(--bg);font:16px/1.55 Inter,Arial,sans-serif;color:var(--text)}a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}header{display:flex;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid rgba(169,189,216,.18)}.brand{font-weight:900;letter-spacing:-.04em}.brand i{font-style:normal;color:var(--aqua)}nav{display:flex;gap:19px;color:var(--muted);font-size:.92rem}nav a:hover{color:var(--aqua)}.hero{padding:82px 0 58px;display:grid;grid-template-columns:1.25fr .75fr;gap:42px;align-items:center}.kicker{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--aqua);text-transform:uppercase}.hero h1{font-size:clamp(2.45rem,6vw,5.15rem);line-height:.98;letter-spacing:-.075em;margin:16px 0 20px}.hero h1 span{color:var(--aqua)}.hero p{font-size:1.08rem;color:var(--muted);max-width:640px;margin:0 0 27px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{padding:12px 17px;border-radius:10px;font-weight:800;border:1px solid var(--aqua);background:var(--aqua);color:#04203a;transition:.2s}.btn.alt{color:var(--text);background:transparent;border-color:#395c8a}.btn:hover{transform:translateY(-3px);box-shadow:0 10px 23px rgba(88,226,205,.15)}.hero-card{background:linear-gradient(145deg,#163b68,#0b203e);padding:25px;border:1px solid #315d91;border-radius:18px;box-shadow:0 22px 60px rgba(0,0,0,.2);animation:float 5s ease-in-out infinite}.hero-card h2{font-size:1.15rem;margin:0 0 14px}.stat{display:flex;gap:13px;padding:12px 0;border-top:1px solid rgba(169,189,216,.16)}.stat b{color:var(--aqua);font-size:1.2rem}.section{padding:62px 0}.section-title{max-width:680px;margin-bottom:27px}.section-title h2{font-size:2rem;letter-spacing:-.045em;margin:8px 0}.section-title p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:rgba(13,37,69,.78);border:1px solid rgba(72,111,158,.58);border-radius:14px;padding:21px;transition:transform .25s,border-color .25s}.card:hover{transform:translateY(-5px);border-color:var(--aqua)}.card .icon{font-size:1.45rem}.card h3{margin:13px 0 7px;font-size:1.08rem}.card p{margin:0;color:var(--muted);font-size:.93rem}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.tab{padding:9px 13px;border:1px solid #365a89;border-radius:9px;color:var(--muted);background:transparent;cursor:pointer;font-weight:700}.tab.active,.tab:hover{background:var(--aqua);color:#06223e;border-color:var(--aqua)}.learn-card{min-height:200px}.learn-card.hide{display:none}.pill{font-size:.7rem;letter-spacing:.08em;font-weight:800;color:#06223e;background:var(--orange);padding:4px 7px;border-radius:20px}.tool-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.tool{padding:14px;background:rgba(16,44,82,.68);border:1px solid var(--line);border-radius:11px;text-align:center;color:#dbeaff;font-weight:700;animation:appear .55s both}.tool:nth-child(2){animation-delay:.06s}.tool:nth-child(3){animation-delay:.12s}.tool:nth-child(4){animation-delay:.18s}.tool:nth-child(5){animation-delay:.24s}.tool:nth-child(6){animation-delay:.3s}.tool:nth-child(7){animation-delay:.36s}.tool:nth-child(8){animation-delay:.42s}.tool small{display:block;margin-top:3px;color:var(--muted);font-weight:400;font-size:.76rem}.method{display:grid;grid-template-columns:1fr 1fr;gap:16px}.method-card{padding:23px;border-left:3px solid var(--blue);background:rgba(13,37,69,.58)}.method-card h3{margin:0 0 8px}.method-card p{margin:0;color:var(--muted)}.counter-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.counter{padding:24px;border-radius:14px;background:linear-gradient(145deg,#123967,#0b203e);border:1px solid #315d91}.counter strong{display:block;font-size:2.35rem;color:var(--aqua);letter-spacing:-.06em}.counter span{color:var(--muted);font-size:.9rem}.project{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}.tag{font-size:.72rem;font-weight:800;letter-spacing:.08em;color:#092039;background:var(--orange);border-radius:20px;padding:4px 9px}.footer{padding:34px 0;border-top:1px solid rgba(169,189,216,.18);color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:16px}.reveal{opacity:0;transform:translateY(20px);transition:.55s ease}.reveal.show{opacity:1;transform:none}@keyframes float{50%{transform:translateY(-9px)}}@keyframes appear{from{opacity:0;transform:scale(.93)}to{opacity:1;transform:none}}@media(max-width:760px){header{align-items:flex-start;gap:15px;flex-direction:column}nav{gap:13px}.hero{grid-template-columns:1fr;padding:58px 0 38px}.hero-card{display:none}.grid{grid-template-columns:1fr}.tool-grid{grid-template-columns:1fr 1fr}.method{grid-template-columns:1fr}.counter-row{grid-template-columns:1fr}.footer{flex-direction:column}}@media(max-width:420px){.wrap{width:min(100% - 28px,1120px)}nav{font-size:.8rem}}
   </style>
 </head>
 <body>
   <header class="wrap">
     <a class="brand" href="#">CLEVerson <i>/ QA & ANALYTICS</i></a>
-    <nav><a href="#servicos">Serviços</a><a href="#metodo">Método</a><a href="#projetos">Projetos</a></nav>
+    <nav><a href="#aprendizado">Aprendizado</a><a href="#ferramentas">Ferramentas</a><a href="#servicos">Serviços</a></nav>
   </header>
   <main class="wrap">
     <section class="hero">
       <div>
         <div class="kicker">Qualidade · Dados · Experiência Digital</div>
-        <h1>Falhas invisíveis <span>não deveriam</span> custar vendas.</h1>
-        <p>Eu analiso sites, perfis e sistemas para encontrar erros, pontos de fricção e oportunidades de melhoria — com documentação clara e recomendações que fazem sentido para o negócio.</p>
-        <div class="actions">
-          <a class="btn" href="#servicos">Conhecer serviços</a>
-          <a class="btn alt" href="https://github.com/CleversonHenriquefg" target="_blank" rel="noreferrer">Ver GitHub ↗</a>
-        </div>
+        <h1>Aprendo, testo, analiso e <span>melhoro.</span></h1>
+        <p>Sou estudante de QA e Defesa Cibernética, construindo um portfólio com testes, documentação, análise de dados e soluções digitais mais claras para quem usa e para quem vende.</p>
+        <div class="actions"><a class="btn" href="#aprendizado">Ver o que aprendi</a><a class="btn alt" href="https://github.com/CleversonHenriquefg" target="_blank" rel="noreferrer">Meu GitHub ↗</a></div>
       </div>
       <aside class="hero-card">
-        <h2>O que eu entrego</h2>
-        <div class="stat"><b>01</b><span>Diagnóstico de pontos críticos e oportunidades.</span></div>
-        <div class="stat"><b>02</b><span>Relatório com evidências, impacto e prioridade.</span></div>
-        <div class="stat"><b>03</b><span>Plano de ação simples, direto e aplicável.</span></div>
+        <h2>Em evolução contínua</h2>
+        <div class="stat"><b>QA</b><span>Testes, casos de teste, bugs e qualidade.</span></div>
+        <div class="stat"><b>SQL</b><span>Consultas e análise organizada de dados.</span></div>
+        <div class="stat"><b>POM</b><span>Estrutura para automação de testes.</span></div>
       </aside>
     </section>
 
-    <section class="section" id="servicos">
-      <div class="section-title"><div class="kicker">Serviços</div><h2>Qualidade técnica com visão de negócio.</h2><p>Uma abordagem prática para melhorar confiança, usabilidade e conversão.</p></div>
+    <section class="section reveal" id="aprendizado">
+      <div class="section-title"><div class="kicker">Conteúdo estudado até agora</div><h2>Conhecimento aplicado, não só teoria.</h2><p>Selecione uma área para explorar as principais competências que venho desenvolvendo.</p></div>
+      <div class="tabs"><button class="tab active" data-filter="qa">QA</button><button class="tab" data-filter="dados">Dados & Analytics</button><button class="tab" data-filter="dev">Web & Automação</button><button class="tab" data-filter="seguranca">Segurança</button></div>
+      <div class="grid" id="learning">
+        <article class="card learn-card" data-group="qa"><div class="icon">✓</div><h3>Fundamentos de QA</h3><p>Entendimento de qualidade, ciclo de testes, tipos de teste e análise de requisitos.</p></article>
+        <article class="card learn-card" data-group="qa"><div class="icon">▣</div><h3>Casos de teste</h3><p>Criação de cenários positivos, negativos e de borda, com resultado esperado e prioridade.</p></article>
+        <article class="card learn-card" data-group="qa"><div class="icon">!</div><h3>Bug reports</h3><p>Registro objetivo de falhas com passos para reproduzir, evidências, impacto e severidade.</p></article>
+        <article class="card learn-card hide" data-group="dados"><div class="icon">⌘</div><h3>SQL</h3><p>Consultas, filtros, ordenação e organização de informações para responder perguntas com dados.</p></article>
+        <article class="card learn-card hide" data-group="dados"><div class="icon">↗</div><h3>Métricas e indicadores</h3><p>Leitura de métricas, identificação de pontos de atenção e comunicação de insights.</p></article>
+        <article class="card learn-card hide" data-group="dados"><div class="icon">▦</div><h3>Excel</h3><p>Estruturação de dados, fórmulas e apoio à criação de relatórios e análises.</p></article>
+        <article class="card learn-card hide" data-group="dev"><div class="icon">◫</div><h3>Testes Web e Mobile</h3><p>Validação de interface, fluxo, responsividade e comportamento em diferentes contextos.</p></article>
+        <article class="card learn-card hide" data-group="dev"><div class="icon">API</div><h3>APIs e Postman</h3><p>Requisições HTTP, status codes, JSON e validação básica de endpoints.</p></article>
+        <article class="card learn-card hide" data-group="dev"><div class="icon">◉</div><h3>POM e automação</h3><p>Estudo do Modelo de Objeto de Página para organizar e manter testes automatizados.</p></article>
+        <article class="card learn-card hide" data-group="seguranca"><div class="icon">◇</div><h3>Defesa Cibernética</h3><p>Formação voltada a riscos digitais, fundamentos de segurança e boas práticas preventivas.</p></article>
+        <article class="card learn-card hide" data-group="seguranca"><div class="icon">⌁</div><h3>Linux</h3><p>Uso de terminal, organização de ambiente e prática com ferramentas técnicas.</p></article>
+        <article class="card learn-card hide" data-group="seguranca"><div class="icon">◌</div><h3>Segurança preventiva</h3><p>Leitura inicial de riscos visíveis e cuidados básicos para sites e presença digital.</p></article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="ferramentas">
+      <div class="section-title"><div class="kicker">Ferramentas</div><h2>O que posso usar nos estudos e projetos.</h2><p>Ferramentas que apoiam teste, documentação, análise e desenvolvimento.</p></div>
+      <div class="tool-grid">
+        <div class="tool">Jira<small>organização e bugs</small></div><div class="tool">Postman<small>testes de API</small></div><div class="tool">SQL<small>consultas de dados</small></div><div class="tool">Excel<small>análise e relatórios</small></div><div class="tool">DevTools<small>inspeção web</small></div><div class="tool">GitHub<small>portfólio e versão</small></div><div class="tool">Python<small>lógica e automação</small></div><div class="tool">Linux<small>ambiente técnico</small></div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="servicos">
+      <div class="section-title"><div class="kicker">Direção profissional</div><h2>Qualidade técnica com visão de negócio.</h2><p>O objetivo é transformar o estudo em entregas claras para sites, perfis e sistemas.</p></div>
       <div class="grid">
-        <article class="card"><div class="icon">⌘</div><h3>QA Manual</h3><p>Testes funcionais, exploratórios, de compatibilidade e validação dos fluxos mais importantes.</p></article>
-        <article class="card"><div class="icon">◉</div><h3>Análise de Site e UX</h3><p>Verificação de navegação, clareza, responsividade e barreiras que afastam o usuário.</p></article>
-        <article class="card"><div class="icon">↗</div><h3>Analytics Básico</h3><p>Leitura de indicadores, definição de métricas e identificação de oportunidades de decisão.</p></article>
-        <article class="card"><div class="icon">!</div><h3>Bug Reports</h3><p>Registros objetivos com evidências, passos para reproduzir, impacto e prioridade.</p></article>
-        <article class="card"><div class="icon">▣</div><h3>Checklists e Relatórios</h3><p>Documentação que organiza problemas e facilita a correção por qualquer equipe.</p></article>
-        <article class="card"><div class="icon">◇</div><h3>Segurança Preventiva</h3><p>Revisão básica de riscos visíveis e boas práticas para fortalecer a presença digital.</p></article>
+        <article class="card"><div class="icon">⌘</div><h3>QA Manual</h3><p>Testes funcionais, exploratórios, de compatibilidade e validação de fluxos.</p></article>
+        <article class="card"><div class="icon">◉</div><h3>Análise de Site e UX</h3><p>Verificação de navegação, clareza, responsividade e barreiras para o usuário.</p></article>
+        <article class="card"><div class="icon">↗</div><h3>Analytics</h3><p>Organização de métricas, leitura de indicadores e oportunidades de melhoria.</p></article>
       </div>
     </section>
 
-    <section class="section" id="metodo">
-      <div class="section-title"><div class="kicker">Método</div><h2>Do problema à ação.</h2></div>
-      <div class="process">
-        <article class="step"><h3>Objetivo</h3><p>Entendo o que precisa funcionar e para quem.</p></article>
-        <article class="step"><h3>Análise</h3><p>Testo os fluxos e pontos de contato principais.</p></article>
-        <article class="step"><h3>Registro</h3><p>Documento evidências e o impacto de cada achado.</p></article>
-        <article class="step"><h3>Prioridade</h3><p>Organizo o que deve ser resolvido primeiro.</p></article>
-        <article class="step"><h3>Plano</h3><p>Entrego recomendações claras para melhorar.</p></article>
-      </div>
+    <section class="section reveal">
+      <div class="section-title"><div class="kicker">Como trabalho</div><h2>Do teste à recomendação.</h2></div>
+      <div class="method"><article class="method-card"><h3>1. Testar e observar</h3><p>Entender o objetivo, percorrer os fluxos e identificar comportamentos que precisam de atenção.</p></article><article class="method-card"><h3>2. Documentar e priorizar</h3><p>Organizar evidências, impacto e prioridade para facilitar a correção e a decisão.</p></article><article class="method-card"><h3>3. Analisar e comunicar</h3><p>Transformar achados em uma explicação simples, com recomendações acionáveis.</p></article><article class="method-card"><h3>4. Evoluir com prática</h3><p>Registrar aprendizados e criar projetos que comprovem a evolução técnica.</p></article></div>
     </section>
 
-    <section class="section" id="projetos">
+    <section class="section reveal">
+      <div class="counter-row"><article class="counter"><strong data-count="4">0</strong><span>frentes de estudo</span></article><article class="counter"><strong data-count="8">0</strong><span>ferramentas no portfólio</span></article><article class="counter"><strong data-count="3">0</strong><span>áreas de atuação</span></article></div>
+    </section>
+
+    <section class="section reveal" id="projetos">
       <div class="section-title"><div class="kicker">Portfólio em construção</div><h2>Estudos transformados em evidência.</h2><p>Projetos de QA e analytics serão adicionados com relatórios, casos de teste e aprendizados.</p></div>
       <article class="card project"><div><h3>Digital Hub — QA & Analytics</h3><p>Central de estudos para acompanhar trilhas, prática de QA, SQL e análise de dados.</p></div><span class="tag">EM EVOLUÇÃO</span></article>
     </section>
   </main>
   <footer class="wrap footer"><span>© 2026 Cleverson Henrique Gomes</span><span>QA · Analytics · Estratégia Digital</span></footer>
+  <script>
+    const tabs=document.querySelectorAll('.tab'),cards=document.querySelectorAll('.learn-card');
+    tabs.forEach(tab=>tab.addEventListener('click',()=>{tabs.forEach(x=>x.classList.remove('active'));tab.classList.add('active');cards.forEach(card=>card.classList.toggle('hide',card.dataset.group!==tab.dataset.filter))}));
+    const reveal=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(x=>reveal.observe(x));
+    const counters=new IntersectionObserver(entries=>entries.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,target=+el.dataset.count;let n=0;const timer=setInterval(()=>{n++;el.textContent=n;if(n===target)clearInterval(timer)},90);counters.unobserve(el)}),{threshold:.8});document.querySelectorAll('[data-count]').forEach(x=>counters.observe(x));
+  </script>
 </body>
 </html>
